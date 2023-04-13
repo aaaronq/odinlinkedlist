@@ -183,6 +183,7 @@ linkedList.pop();
 //Testing console logging methods
 linkedList.size();
 console.log(linkedList.toString() + "\n");
+console.log(`First node = ${linkedList.head()}, Last node = ${linkedList.tail()}`)
 
 //Testing finding methods
 console.log(`Contains foo? ${linkedList.contains("foo")}`);
